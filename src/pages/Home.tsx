@@ -12,7 +12,7 @@ import Listen from '../components/sections/Listen';
 import Footer from '../components/Footer';
 
 export default function Home() {
-  useTabTitle('Shashwat — Engineer & Writer');
+  useTabTitle('Shashwat: Engineer & Educator');
   useConsoleEgg();
   useScrollReveal();
 

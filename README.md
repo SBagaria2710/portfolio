@@ -1,16 +1,85 @@
-# React + Vite
+# shashwat.dev — portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio and writing space. Built with React 19, TypeScript, and Vite 8. Statically generated at build time — no server required.
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+| Layer | Choice |
+|---|---|
+| UI | React 19 + TypeScript (strict) |
+| Bundler | Vite 8 |
+| Routing | react-router-dom v7 |
+| Rendering | SSG via Vite SSR + prerender script |
+| Styles | Vanilla CSS with custom properties |
+| Package manager | Yarn (PnP) |
 
-## React Compiler
+## Project structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```
+src/
+  components/
+    sections/       # Home page sections (Hero, About, Work, …)
+    Footer.tsx
+    ScrollToTop.tsx
+    Ticker.tsx
+    Whisper.tsx     # Keyboard easter egg overlay
+  hooks/
+    useConsoleEgg.ts
+    useScrollReveal.ts
+    useTabTitle.ts
+  pages/
+    posts/          # Individual blog post pages
+    Blog.tsx
+    Home.tsx
+    NotFound.tsx
+  data/
+    posts.ts        # Post metadata
+  App.tsx
+  entry-server.tsx  # SSR entry (used only at build time)
+  main.tsx          # Client hydration entry
+scripts/
+  prerender.mjs     # Walks all routes, writes dist/**\/index.html
+```
 
-## Expanding the ESLint configuration
+## Getting started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+yarn install
+yarn dev        # localhost:5173, HMR
+```
+
+## Build
+
+```bash
+yarn build
+```
+
+Three-phase pipeline:
+1. `vite build` — client bundle → `dist/`
+2. `vite build --ssr` — server bundle → `dist-ssr/`
+3. `node scripts/prerender.mjs` — writes static HTML for each route
+
+Output in `dist/`:
+```
+dist/index.html
+dist/blog/index.html
+dist/blog/<slug>/index.html   (one per post)
+```
+
+Preview the static output locally:
+
+```bash
+yarn preview
+```
+
+## How SSG works
+
+`entry-server.tsx` exports a `render(url)` function that uses `renderToString` + `StaticRouter`. The prerender script imports this, calls it for every known route, and injects the result into `index.html`'s `<!--app-html-->` placeholder.
+
+`main.tsx` uses `hydrateRoot` instead of `createRoot`, so React attaches event listeners to the existing HTML instead of re-rendering from scratch.
+
+## Easter eggs
+
+- Type `mellon`, `assemble`, `pivot`, `valar`, `hodor`, `knock`, or `groot` anywhere on the page (not in an input)
+- Open the browser console
+- Switch tabs

@@ -15,6 +15,7 @@ export default function Hero() {
         <span>fullstack engineer</span><span className="glyph">✦</span>
         <span>react · node · typescript</span><span className="glyph">✦</span>
         <span>product thinker</span><span className="glyph">✦</span>
+        <span>educator</span><span className="glyph">✦</span>
         <span>occasional writer</span><span className="glyph">✦</span>
         <span>cricket enthusiast</span><span className="glyph">✦</span>
         <span>6+ years shipping things</span><span className="glyph">✦</span>
@@ -32,7 +33,7 @@ export default function Hero() {
 
           <h1 className="hero__name">
             Sha<em>sh</em>wat
-            <span className="sub">— fullstack engineer, occasional writer, person on the internet.</span>
+            <span className="sub">— fullstack engineer, educator, occasional writer, person on the internet.</span>
           </h1>
 
           <div className="hero__cursorline">
