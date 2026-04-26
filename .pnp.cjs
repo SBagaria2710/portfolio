@@ -39,7 +39,9 @@ const RAW_RUNTIME_STATE =
           ["portfolio", "workspace:."],\
           ["react", "npm:19.2.5"],\
           ["react-dom", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:19.2.5"],\
+          ["react-router", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:7.14.2"],\
           ["react-router-dom", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:7.14.2"],\
+          ["typescript", "patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>::version=6.0.3&hash=5786d5"],\
           ["vite", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:8.0.10"]\
         ],\
         "linkType": "SOFT"\
@@ -1807,7 +1809,9 @@ const RAW_RUNTIME_STATE =
           ["portfolio", "workspace:."],\
           ["react", "npm:19.2.5"],\
           ["react-dom", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:19.2.5"],\
+          ["react-router", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:7.14.2"],\
           ["react-router-dom", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:7.14.2"],\
+          ["typescript", "patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>::version=6.0.3&hash=5786d5"],\
           ["vite", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:8.0.10"]\
         ],\
         "linkType": "SOFT"\
@@ -1892,15 +1896,15 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:bf684f6186615c02b11270abfca131995570dcaa5685f6fb5359f94b3fff97f209edfa41dfb3c4e3c02278bfb80c288d2ecf2d600f9b26dc98eb18edfb5ea9e8#npm:7.14.2", {\
-        "packageLocation": "./.yarn/__virtual__/react-router-virtual-a61b3585a1/3/.yarn/berry/cache/react-router-npm-7.14.2-4be36a7018-10c0.zip/node_modules/react-router/",\
+      ["virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:7.14.2", {\
+        "packageLocation": "./.yarn/__virtual__/react-router-virtual-f9ea0dc940/3/.yarn/berry/cache/react-router-npm-7.14.2-4be36a7018-10c0.zip/node_modules/react-router/",\
         "packageDependencies": [\
           ["@types/react", "npm:19.2.14"],\
           ["@types/react-dom", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:19.2.3"],\
           ["cookie", "npm:1.1.1"],\
           ["react", "npm:19.2.5"],\
           ["react-dom", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:19.2.5"],\
-          ["react-router", "virtual:bf684f6186615c02b11270abfca131995570dcaa5685f6fb5359f94b3fff97f209edfa41dfb3c4e3c02278bfb80c288d2ecf2d600f9b26dc98eb18edfb5ea9e8#npm:7.14.2"],\
+          ["react-router", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:7.14.2"],\
           ["set-cookie-parser", "npm:2.7.2"]\
         ],\
         "packagePeers": [\
@@ -1927,7 +1931,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:19.2.3"],\
           ["react", "npm:19.2.5"],\
           ["react-dom", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:19.2.5"],\
-          ["react-router", "virtual:bf684f6186615c02b11270abfca131995570dcaa5685f6fb5359f94b3fff97f209edfa41dfb3c4e3c02278bfb80c288d2ecf2d600f9b26dc98eb18edfb5ea9e8#npm:7.14.2"],\
+          ["react-router", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:7.14.2"],\
           ["react-router-dom", "virtual:3786d9363fd0a547cdeba13dbbd7739095de182e2f1aa37c74f8398253205a5b62b2735c6799681aabf1f7716a4d0562fe89843678033b5bdce0191960fb23a9#npm:7.14.2"]\
         ],\
         "packagePeers": [\
@@ -2067,6 +2071,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["prelude-ls", "npm:1.2.1"],\
           ["type-check", "npm:0.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["typescript", [\
+      ["patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>::version=6.0.3&hash=5786d5", {\
+        "packageLocation": "../../.yarn/berry/cache/typescript-patch-bfb0cdd3b9-10c0.zip/node_modules/typescript/",\
+        "packageDependencies": [\
+          ["typescript", "patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>::version=6.0.3&hash=5786d5"]\
         ],\
         "linkType": "HARD"\
       }]\
