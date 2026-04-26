@@ -7,10 +7,10 @@ const ROOT = path.join(__dirname, '..');
 
 const ROUTES = [
   '/',
-  '/blog',
-  '/blog/the-cost-of-a-migration',
-  '/blog/what-i-learned-from-ipl',
-  '/blog/on-deleting-things',
+  // '/blog',
+  // '/blog/the-cost-of-a-migration',
+  // '/blog/what-i-learned-from-ipl',
+  // '/blog/on-deleting-things',
 ];
 
 async function prerender() {
