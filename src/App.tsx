@@ -10,17 +10,17 @@ import OnDeletingThings from './pages/posts/OnDeletingThings';
 
 export default function App() {
   return (
-    <>
+    <div>
       <ScrollToTop />
       <Whisper />
       <Routes>
-        <Route path="/"                               element={<Home />} />
-        <Route path="/blog"                           element={<Blog />} />
-        <Route path="/blog/the-cost-of-a-migration"   element={<TheCostOfAMigration />} />
-        <Route path="/blog/what-i-learned-from-ipl"   element={<WhatILearnedFromIPL />} />
-        <Route path="/blog/on-deleting-things"        element={<OnDeletingThings />} />
-        <Route path="*"                               element={<NotFound />} />
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/the-cost-of-a-migration" element={<TheCostOfAMigration />} />
+        <Route path="/blog/what-i-learned-from-ipl" element={<WhatILearnedFromIPL />} />
+        <Route path="/blog/on-deleting-things" element={<OnDeletingThings />} /> */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
-    </>
+    </div>
   );
 }

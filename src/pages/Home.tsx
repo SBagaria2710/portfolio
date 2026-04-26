@@ -7,7 +7,7 @@ import Work from '../components/sections/Work';
 import SideProjects from '../components/sections/SideProjects';
 import Recognition from '../components/sections/Recognition';
 import Teaching from '../components/sections/Teaching';
-import Writing from '../components/sections/Writing';
+// import Writing from '../components/sections/Writing';
 import Listen from '../components/sections/Listen';
 import Footer from '../components/Footer';
 
@@ -24,7 +24,7 @@ export default function Home() {
       <SideProjects />
       <Recognition />
       <Teaching />
-      <Writing />
+      {/* <Writing /> */}
       <Listen />
       <div className="frame">
         <Footer
