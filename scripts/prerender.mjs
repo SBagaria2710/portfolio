@@ -29,6 +29,12 @@ async function prerender() {
     fs.writeFileSync(path.join(outputDir, 'index.html'), html);
     console.log(`✓ prerendered ${url}`);
   }
+
+  // 404 page — Cloudflare Pages serves this for any unmatched route
+  const notFoundHtml = render('/404');
+  const html404 = template.replace('<!--app-html-->', notFoundHtml);
+  fs.writeFileSync(path.join(ROOT, 'dist/404.html'), html404);
+  console.log('✓ prerendered 404.html');
 }
 
 prerender().catch(err => { console.error(err); process.exit(1); });
