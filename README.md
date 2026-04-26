@@ -12,6 +12,9 @@ Personal portfolio and writing space. Built with React 19, TypeScript, and Vite 
 | Rendering | SSG via Vite SSR + prerender script |
 | Styles | Vanilla CSS with custom properties |
 | Package manager | Yarn (PnP) |
+| Hosting | Cloudflare Pages |
+| DNS / CDN | Cloudflare |
+| Domain | shashwatbagaria.com |
 
 ## Project structure
 
