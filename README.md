@@ -77,9 +77,3 @@ yarn preview
 `entry-server.tsx` exports a `render(url)` function that uses `renderToString` + `StaticRouter`. The prerender script imports this, calls it for every known route, and injects the result into `index.html`'s `<!--app-html-->` placeholder.
 
 `main.tsx` uses `hydrateRoot` instead of `createRoot`, so React attaches event listeners to the existing HTML instead of re-rendering from scratch.
-
-## Easter eggs
-
-- Type `mellon`, `assemble`, `pivot`, `valar`, `hodor`, `knock`, or `groot` anywhere on the page (not in an input)
-- Open the browser console
-- Switch tabs
