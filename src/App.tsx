@@ -2,11 +2,11 @@ import { Routes, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import Whisper from './components/Whisper';
 import Home from './pages/Home';
-import Blog from './pages/Blog';
+// import Blog from './pages/Blog';
 import NotFound from './pages/NotFound';
-import TheCostOfAMigration from './pages/posts/TheCostOfAMigration';
-import WhatILearnedFromIPL from './pages/posts/WhatILearnedFromIPL';
-import OnDeletingThings from './pages/posts/OnDeletingThings';
+// import TheCostOfAMigration from './pages/posts/TheCostOfAMigration';
+// import WhatILearnedFromIPL from './pages/posts/WhatILearnedFromIPL';
+// import OnDeletingThings from './pages/posts/OnDeletingThings';
 
 export default function App() {
   return (
