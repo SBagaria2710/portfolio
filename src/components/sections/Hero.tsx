@@ -6,12 +6,12 @@ export default function Hero() {
       <Ticker speed={50}>
         <span>fullstack engineer</span><span className="glyph">✦</span>
         <span>react · node · typescript</span><span className="glyph">✦</span>
-        <span>product thinker</span><span className="glyph">✦</span>
         <span>educator</span><span className="glyph">✦</span>
+        <span>product thinker</span><span className="glyph">✦</span>
         <span>occasional writer</span><span className="glyph">✦</span>
-        <span>cricket enthusiast</span><span className="glyph">✦</span>
+        <span>cinema enthusiast</span><span className="glyph">✦</span>
         <span>6+ years shipping things</span><span className="glyph">✦</span>
-        <span>based in bengaluru</span><span className="glyph">✦</span>
+        <span>based in bengaluru/lucknow</span><span className="glyph">✦</span>
         <span>currently at deel</span><span className="glyph red">◆</span>
       </Ticker>
 
@@ -19,7 +19,7 @@ export default function Hero() {
         <div className="hero">
           <div className="hero__rule" />
           <div className="hero__topbar">
-            <span>Est. 1996&nbsp;<span className="dot">●</span>&nbsp;Bengaluru, India</span>
+            <span>Est. 1996&nbsp;<span className="dot">●</span>&nbsp;Lucknow, India</span>
             <span>Currently @ Deel&nbsp;<span className="dot">●</span>&nbsp;GMT+5:30</span>
           </div>
 
