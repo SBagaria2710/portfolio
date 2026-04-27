@@ -8,7 +8,7 @@ import SideProjects from '../components/sections/SideProjects';
 import Recognition from '../components/sections/Recognition';
 import Teaching from '../components/sections/Teaching';
 // import Writing from '../components/sections/Writing';
-// import Listen from '../components/sections/Listen';
+import Listen from '../components/sections/Listen';
 import Footer from '../components/Footer';
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
       <Recognition />
       <Teaching />
       {/* <Writing /> */}
-      {/* <Listen /> */}
+      <Listen />
       <div className="frame">
         <Footer
           heading="Say hello, or just say something."

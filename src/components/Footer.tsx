@@ -17,17 +17,17 @@ export default function Footer({
           <p className="foot-p">{intro}</p>
           <nav className="foot-links" aria-label="Elsewhere">
             <a href="mailto:shashwawtforwork@gmail.com">email</a><span className="dot">●</span>
-            <a href="https://github.com/shashwatb" target="_blank" rel="noopener noreferrer">github</a><span className="dot">●</span>
-            <a href="https://linkedin.com/in/shashwatb" target="_blank" rel="noopener noreferrer">linkedin</a><span className="dot">●</span>
-            <a href="https://twitter.com/shashwatb" target="_blank" rel="noopener noreferrer">twitter</a><span className="dot">●</span>
-            <a href="https://codepen.io/shashwatb" target="_blank" rel="noopener noreferrer">codepen</a><span className="dot">●</span>
-            <a href="https://letterboxd.com/shashwatb" target="_blank" rel="noopener noreferrer">letterboxd</a><span className="dot">●</span>
+            <a href="https://github.com/SBagaria2710/" target="_blank" rel="noopener noreferrer">github</a><span className="dot">●</span>
+            <a href="https://www.linkedin.com/in/shashwat-bagaria/" target="_blank" rel="noopener noreferrer">linkedin</a><span className="dot">●</span>
+            <a href="https://x.com/SBagaria2710" target="_blank" rel="noopener noreferrer">twitter/x</a><span className="dot">●</span>
+            <a href="https://codepen.io/iShashwat" target="_blank" rel="noopener noreferrer">codepen</a><span className="dot">●</span>
+            <a href="https://letterboxd.com/SBagaria2710/" target="_blank" rel="noopener noreferrer">letterboxd</a><span className="dot">●</span>
             <a href="https://linktr.ee/shashwatb" target="_blank" rel="noopener noreferrer">linktree</a>
           </nav>
         </div>
         <div>
           <p className="foot-p" style={{ fontFamily: 'var(--display)', fontStyle: 'italic', fontSize: '22px', color: 'var(--ink)', lineHeight: 1.4 }}>
-            &ldquo;<span style={{ color: 'var(--ink-2)' }}>// TODO:</span> a one-line credit or quote you actually like.&rdquo;
+            &ldquo;An open road at sunset. Wind in your hair. Nothing in your way, except horizon.&rdquo;
           </p>
           <p className="foot-credit">© 2026 · built by hand · no frameworks were harmed</p>
         </div>
