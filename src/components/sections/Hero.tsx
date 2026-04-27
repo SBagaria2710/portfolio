@@ -25,7 +25,7 @@ export default function Hero() {
 
           <h1 className="hero__name">
             Sha<em>sh</em>wat
-            <span className="sub">— senior software engineer · React, system design & monorepo specialist · remote from Lucknow.</span>
+            <span className="sub">— fullstack engineer · educator · person on the internet.</span>
           </h1>
 
           <div className="hero__cursorline">
