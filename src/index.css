@@ -277,8 +277,8 @@ footer { margin-top: 88px; padding: 56px 0 100px; border-top: 4px double var(--i
 .foot-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 48px; align-items: start; }
 .foot-h { font-family: var(--display); font-style: italic; font-size: 38px; line-height: 1.1; margin: 0 0 14px; max-width: 14ch; }
 .foot-p { font-family: var(--mono); font-size: 14px; color: var(--ink-2); margin: 0 0 18px; max-width: 50ch; }
-.foot-links { font-family: var(--mono); font-size: 13.5px; line-height: 2.1; }
-.foot-links a { border-bottom: 1px dashed var(--ink-2); padding-bottom: 1px; margin-right: 4px; transition: color 160ms, border-color 160ms; }
+.foot-links { font-family: var(--mono); font-size: 13.5px; line-height: 2.1; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 0; }
+.foot-links a { border-bottom: 1px dashed var(--ink-2); padding-bottom: 1px; margin-right: 4px; transition: color 160ms, border-color 160ms; white-space: nowrap; }
 .foot-links a:hover { color: var(--rust); border-color: var(--rust); }
 .foot-links .dot { color: var(--ink-2); margin: 0 6px; }
 .foot-credit { margin-top: 22px; color: var(--ink-2); font-size: 12px; letter-spacing: 0.04em; }
@@ -465,6 +465,9 @@ footer { margin-top: 88px; padding: 56px 0 100px; border-top: 4px double var(--i
   body { font-size: 14.5px; }
   .currently dl { grid-template-columns: 1fr; row-gap: 4px; }
   .currently dl dt { padding-top: 12px; }
+  .foot-h { font-size: 28px; }
+  .foot-links { font-size: 12.5px; }
+  .foot-links .dot { margin: 0 4px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .cursor, .ticker__rail, .marauder span, .vinyl, .train span { animation: none; }
