@@ -25,12 +25,12 @@ export default function Hero() {
 
           <h1 className="hero__name">
             Sha<em>sh</em>wat
-            <span className="sub">— fullstack engineer, educator, occasional writer, person on the internet.</span>
+            <span className="sub">— senior software engineer · React, system design & monorepo specialist · remote from Lucknow.</span>
           </h1>
 
           <div className="hero__cursorline">
             <span className="prompt">~/portfolio $</span>
-            <span>6 years building things people actually use at scale.</span>
+            <span>6 years shipping high-scale systems in React, TypeScript & Node — 100M+ users served.</span>
             <span className="pipe">|</span>
             <span className="cursor" aria-hidden="true" />
           </div>
@@ -38,8 +38,8 @@ export default function Hero() {
           <dl className="hero__stats">
             <div><dt>Experience</dt><dd>6+ yrs<small>in production systems</small></dd></div>
             <div><dt>Companies</dt><dd>3+<small>Deel · JioHotstar · Cars24</small></dd></div>
-            <div><dt>Stack</dt><dd>JS/TS<small>+ React · Node · Vite</small></dd></div>
-            <div><dt>Currently</dt><dd>SSE<small>@ Deel · Remote</small></dd></div>
+            <div><dt>Stack</dt><dd>React / TS<small>+ Node · Vite · System Design</small></dd></div>
+            <div><dt>Location</dt><dd>Remote<small>Lucknow, India · GMT+5:30</small></dd></div>
           </dl>
         </div>
       </div>
