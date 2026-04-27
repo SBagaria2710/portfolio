@@ -16,7 +16,6 @@ const CODES = {
   groot: { line: 'I am Groot.', by: 'Marvel · Guardians of the Galaxy', url: 'https://www.imdb.com/title/tt2015381/' },
   totoro: { line: 'Trees and people used to be good friends.', by: 'Studio Ghibli · My Neighbor Totoro', url: 'https://www.imdb.com/title/tt0096283/' },
   knock: { line: 'I am the one who knocks.', by: 'Breaking Bad · Walter White', url: 'https://www.imdb.com/title/tt0903747/' },
-  priyanka: { line: 'I like you 💛', by: 'Shashwat Bagaria', url: null },
 } as const satisfies Record<string, Code>;
 
 type CodeKey = keyof typeof CODES;
