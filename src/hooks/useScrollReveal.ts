@@ -18,9 +18,10 @@ export function useScrollReveal(): void {
     }
 
     const vh = window.innerHeight || document.documentElement.clientHeight;
-    targets.forEach((el, i) => {
+    let inViewIdx = 0;
+    targets.forEach(el => {
       const r = el.getBoundingClientRect();
-      if (r.top < vh) setTimeout(() => el.classList.add('in'), 60 * i);
+      if (r.top < vh) setTimeout(() => el.classList.add('in'), 60 * inViewIdx++);
     });
 
     const io = new IntersectionObserver(

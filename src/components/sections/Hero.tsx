@@ -7,14 +7,6 @@ export default function Hero() {
         <span>fullstack engineer</span><span className="glyph">✦</span>
         <span>react · node · typescript</span><span className="glyph">✦</span>
         <span>product thinker</span><span className="glyph">✦</span>
-        <span>occasional writer</span><span className="glyph">✦</span>
-        <span>cricket enthusiast</span><span className="glyph">✦</span>
-        <span>6+ years shipping things</span><span className="glyph">✦</span>
-        <span>based in bengaluru</span><span className="glyph">✦</span>
-        <span>currently at deel</span><span className="glyph red">◆</span>
-        <span>fullstack engineer</span><span className="glyph">✦</span>
-        <span>react · node · typescript</span><span className="glyph">✦</span>
-        <span>product thinker</span><span className="glyph">✦</span>
         <span>educator</span><span className="glyph">✦</span>
         <span>occasional writer</span><span className="glyph">✦</span>
         <span>cricket enthusiast</span><span className="glyph">✦</span>
