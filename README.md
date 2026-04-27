@@ -1,8 +1,8 @@
-# shashwatbagaria.com — portfolio
+# shashwatbagaria.com - portfolio
 
-Personal portfolio and writing space for [Shashwat Bagaria](https://portfolio.shashwatbagaria.com) — Senior Software Engineer at Deel, React & system design specialist, remote from Lucknow, India.
+Personal portfolio and writing space for [Shashwat Bagaria](https://portfolio.shashwatbagaria.com) - Senior Software Engineer at Deel, React & system design specialist, remote from Lucknow, India.
 
-Built with React 19, TypeScript, and Vite 8. Statically generated at build time — no server required.
+Built with React 19, TypeScript, and Vite 8. Statically generated at build time - no server required.
 
 ## Stack
 
@@ -101,10 +101,10 @@ yarn preview
 
 Set via `public/_headers` (Cloudflare Pages convention):
 
-- `Strict-Transport-Security` — enforces HTTPS for 1 year across all subdomains
-- `Content-Security-Policy` — whitelists scripts, styles, fonts, and image sources
-- `X-Frame-Options: DENY` — prevents clickjacking
-- `Cross-Origin-Opener-Policy: same-origin` — isolates browsing context
+- `Strict-Transport-Security` - enforces HTTPS for 1 year across all subdomains
+- `Content-Security-Policy` - whitelists scripts, styles, fonts, and image sources
+- `X-Frame-Options: DENY` - prevents clickjacking
+- `Cross-Origin-Opener-Policy: same-origin` - isolates browsing context
 
 ## SEO
 
