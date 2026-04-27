@@ -91,11 +91,11 @@ yarn preview
 
 ## Performance
 
-- **Code splitting** — blog routes are lazy-loaded via `React.lazy`. Only the home page bundle loads on initial visit.
-- **Async fonts** — Google Fonts loaded with `media="print"` trick to avoid render-blocking.
-- **Composited animations** — all animations (`roll`, `spin`, `reveal`, `blink`) use only `transform` and `opacity` — no layout-triggering properties.
-- **LCP fix** — `useScrollReveal` staggers only in-viewport elements, so the hero heading renders immediately without delay.
-- **Edge caching** — versioned assets (`/assets/*`) served with `Cache-Control: immutable` via Cloudflare Pages `_headers`.
+- **Code splitting** - blog routes are lazy-loaded via `React.lazy`. Only the home page bundle loads on initial visit.
+- **Async fonts** - Google Fonts loaded with `media="print"` trick to avoid render-blocking.
+- **Composited animations** - all animations (`roll`, `spin`, `reveal`, `blink`) use only `transform` and `opacity` - no layout-triggering properties.
+- **LCP fix** - `useScrollReveal` staggers only in-viewport elements, so the hero heading renders immediately without delay.
+- **Edge caching** - versioned assets (`/assets/*`) served with `Cache-Control: immutable` via Cloudflare Pages `_headers`.
 
 ## Security headers
 
