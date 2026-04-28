@@ -30,9 +30,7 @@ export default function Hero() {
 
           <div className="hero__cursorline">
             <span className="prompt">~/portfolio $</span>
-            <span>6 years shipping high-scale systems in React, TypeScript & Node — 100M+ users served.</span>
-            <span className="pipe">|</span>
-            <span className="cursor" aria-hidden="true" />
+            <span>6 years shipping high-scale systems in React, TypeScript & Node — 100M+ users served.<span className="pipe"> |</span><span className="cursor" aria-hidden="true" /></span>
           </div>
 
           <dl className="hero__stats">

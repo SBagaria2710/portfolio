@@ -113,7 +113,7 @@ p { margin: 0 0 1em; }
 }
 .hero__cursorline {
   margin: 28px 0 0; display: flex; flex-wrap: wrap; align-items: baseline;
-  gap: 14px; font-family: var(--mono); font-size: 16px;
+  gap: 8px 14px; font-family: var(--mono); font-size: 16px;
 }
 .hero__cursorline .prompt { color: var(--rivendell); font-weight: 700; }
 .hero__cursorline .pipe   { color: var(--ink-2); }
@@ -463,6 +463,7 @@ footer { margin-top: 88px; padding: 56px 0 100px; border-top: 4px double var(--i
 @media (max-width: 520px) {
   .hero__name { font-size: 64px; }
   .hero__cursorline { font-size: 14px; }
+  .hero__topbar span:last-child { display: none; }
   body { font-size: 14.5px; }
   .currently dl { grid-template-columns: 1fr; row-gap: 4px; }
   .currently dl dt { padding-top: 12px; }
