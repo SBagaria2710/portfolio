@@ -1,8 +1,8 @@
-# shashwatbagaria.com — portfolio
+# shashwatbagaria.com - portfolio
 
-Personal portfolio and writing space for [Shashwat Bagaria](https://portfolio.shashwatbagaria.com) — Senior Software Engineer at Deel, React & system design specialist, remote from Lucknow, India.
+Personal portfolio and writing space for [Shashwat Bagaria](https://portfolio.shashwatbagaria.com) - Senior Software Engineer at Deel, React & system design specialist, remote from Lucknow, India.
 
-Built with React 19, TypeScript, and Vite 8. Statically generated at build time — no server required.
+Built with React 19, TypeScript, and Vite 8. Statically generated at build time - no server required.
 
 ## Stack
 
@@ -91,20 +91,20 @@ yarn preview
 
 ## Performance
 
-- **Code splitting** — blog routes are lazy-loaded via `React.lazy`. Only the home page bundle loads on initial visit.
-- **Async fonts** — Google Fonts loaded with `media="print"` trick to avoid render-blocking.
-- **Composited animations** — all animations (`roll`, `spin`, `reveal`, `blink`) use only `transform` and `opacity` — no layout-triggering properties.
-- **LCP fix** — `useScrollReveal` staggers only in-viewport elements, so the hero heading renders immediately without delay.
-- **Edge caching** — versioned assets (`/assets/*`) served with `Cache-Control: immutable` via Cloudflare Pages `_headers`.
+- **Code splitting** - blog routes are lazy-loaded via `React.lazy`. Only the home page bundle loads on initial visit.
+- **Async fonts** - Google Fonts loaded with `media="print"` trick to avoid render-blocking.
+- **Composited animations** - all animations (`roll`, `spin`, `reveal`, `blink`) use only `transform` and `opacity` - no layout-triggering properties.
+- **LCP fix** - `useScrollReveal` staggers only in-viewport elements, so the hero heading renders immediately without delay.
+- **Edge caching** - versioned assets (`/assets/*`) served with `Cache-Control: immutable` via Cloudflare Pages `_headers`.
 
 ## Security headers
 
 Set via `public/_headers` (Cloudflare Pages convention):
 
-- `Strict-Transport-Security` — enforces HTTPS for 1 year across all subdomains
-- `Content-Security-Policy` — whitelists scripts, styles, fonts, and image sources
-- `X-Frame-Options: DENY` — prevents clickjacking
-- `Cross-Origin-Opener-Policy: same-origin` — isolates browsing context
+- `Strict-Transport-Security` - enforces HTTPS for 1 year across all subdomains
+- `Content-Security-Policy` - whitelists scripts, styles, fonts, and image sources
+- `X-Frame-Options: DENY` - prevents clickjacking
+- `Cross-Origin-Opener-Policy: same-origin` - isolates browsing context
 
 ## SEO
 
