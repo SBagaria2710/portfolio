@@ -16,7 +16,7 @@ export default function Teaching() {
               feel like they know what they're doing. (Spoiler: you will. Sort of.)
             </p>
             <p>
-              I've been a part of <strong>Team Shiksha</strong> as an educator and community moderator — running
+              I've been a part of <a className="link" href="https://team.shiksha/" target="_blank" rel="noopener noreferrer"><strong>Team Shiksha</strong></a> as an educator and community moderator — running
               occasional sessions, answering the same five questions about closures with genuine enthusiasm, and
               trying to make advanced topics feel approachable rather than terrifying.
             </p>
