@@ -34,15 +34,15 @@ export default function About() {
 
           <p className="b reveal">
             Known for delivering under tight deadlines, leading cross-functional efforts, and owning features
-            end-to-end. Outside work, you'll find me watching cricket, hosting the{' '}
-            <a className="inline-ref" href="https://linktr.ee/shashwatb" target="_blank" rel="noopener noreferrer">
-              Positive Shift podcast
+            end-to-end. Outside work, you'll find me watching cricket, hosting{' '}
+            <a className="inline-ref" href="https://open.spotify.com/show/11XFJoppFmn2LGuSRYg5R1" target="_blank" rel="noopener noreferrer">
+              The Positive Shift podcast
             </a>
             , or teaching frontend and system design to the next batch of engineers who'll one day outship me.
           </p>
 
           <div className="pin-list reveal">
-            <div className="pin">Location<b>Bengaluru, IN</b></div>
+            <div className="pin">Location<b>Lucknow/Bengaluru, IN</b></div>
             <div className="pin">Education<b>B.Tech CS · Reva</b></div>
             <div className="pin">Pronouns<b>He / Him</b></div>
           </div>

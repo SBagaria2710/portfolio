@@ -107,6 +107,34 @@ p { margin: 0 0 1em; }
   letter-spacing: -0.02em; margin: 0 0 8px; position: relative;
 }
 .hero__name em { font-style: italic; color: var(--rust); }
+.tip {
+  position: relative; cursor: default; display: inline-block;
+}
+.tip::after {
+  content: attr(data-tip);
+  position: absolute; top: calc(100% + 22px); left: 50%;
+  transform: translateX(-50%) translateY(6px);
+  background: var(--cream); color: var(--ink); font-family: var(--serif);
+  font-size: 17px; font-style: normal; font-weight: 500;
+  letter-spacing: 0.01em; white-space: nowrap;
+  padding: 8px 14px; border-radius: 3px; z-index: 10;
+  border: 1.5px dashed var(--rust);
+  box-shadow: 3px 3px 0 var(--rust);
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.tip::before {
+  content: '';
+  position: absolute; top: calc(100% + 8px); left: 50%; transform: translateX(-50%);
+  border: 7px solid transparent; border-bottom-color: var(--rust); z-index: 12;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+.tip:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+.tip:hover::before { opacity: 1; }
 .hero__name .sub {
   display: block; font-family: var(--display); font-style: italic;
   font-size: clamp(20px, 2.6vw, 32px); color: var(--ink-2); letter-spacing: 0; margin-top: 4px;

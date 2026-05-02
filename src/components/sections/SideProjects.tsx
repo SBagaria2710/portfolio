@@ -9,7 +9,7 @@ export default function SideProjects() {
         </div>
 
         <div className="cards">
-          <a className="card reveal" href="https://chromewebstore.google.com/search/tab%20securer" target="_blank" rel="noopener noreferrer">
+          <a className="card reveal" href="https://www.producthunt.com/products/tab-securer?launch=tab-securer" target="_blank" rel="noopener noreferrer">
             <span className="card__tag">Chrome Extension</span>
             <h3>Tab Securer ↗</h3>
             <p className="yr">2020</p>
@@ -33,7 +33,7 @@ export default function SideProjects() {
             <p className="stack"><span className="chip">Solidity</span><span className="chip">MetaMask API</span><span className="chip">React</span></p>
           </a>
 
-          <a className="card reveal" href="https://linktr.ee/shashwatb" target="_blank" rel="noopener noreferrer">
+          <a className="card reveal" href="https://open.spotify.com/show/11XFJoppFmn2LGuSRYg5R1" target="_blank" rel="noopener noreferrer">
             <span className="card__tag">Podcast</span>
             <h3>The Positive Shift ↗</h3>
             <p className="yr">Ongoing</p>

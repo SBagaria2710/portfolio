@@ -24,7 +24,7 @@ export default function Hero() {
           </div>
 
           <h1 className="hero__name">
-            Sha<em>sh</em>wat
+            Sha<span className="tip" data-tip="it's 'sh', not 's'. Yes, there are two sh(s)"><em>sh</em></span>wat
             <span className="sub">— fullstack engineer · educator · person on the internet.</span>
           </h1>
 
