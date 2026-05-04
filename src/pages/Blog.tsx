@@ -13,7 +13,7 @@ const STAMP_CLASS: Record<Post['stamp'], string> = {
 };
 
 export default function Blog() {
-  useTabTitle('Writing — Shashwat');
+  useTabTitle('Writing - Shashwat');
   useScrollReveal();
 
   return (

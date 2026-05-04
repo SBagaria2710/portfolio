@@ -20,8 +20,8 @@ export default function Footer({
             <a href="https://github.com/SBagaria2710/" target="_blank" rel="noopener noreferrer">github</a><span className="dot">●</span>
             <a href="https://www.linkedin.com/in/shashwat-bagaria/" target="_blank" rel="noopener noreferrer">linkedin</a><span className="dot">●</span>
             <a href="https://x.com/SBagaria2710" target="_blank" rel="noopener noreferrer">twitter/x</a><span className="dot">●</span>
+            <a href="https://letterboxd.com/SBagaria2710/" target="_blank" rel="noopener noreferrer">Letterboxd</a><span className="dot">●</span>
             <a href="https://codepen.io/iShashwat" target="_blank" rel="noopener noreferrer">codepen</a><span className="dot">●</span>
-            <a href="https://linktr.ee/shashwatb" target="_blank" rel="noopener noreferrer">linktree</a><span className="dot">●</span>
             <a className="link" href="https://calendly.com/sbagaria2710/discovery-call-shashwat" target="_blank" rel="noopener noreferrer">book a call →</a>
           </nav>
         </div>
@@ -37,7 +37,15 @@ export default function Footer({
         <span>I solemnly swear that I am up to no good &nbsp;◆&nbsp; valar morghulis &nbsp;◆&nbsp; this is the way &nbsp;◆&nbsp; with great power, comes great responsibility &nbsp;◆&nbsp; could I BE more on time? &nbsp;◆&nbsp; pivot! pivot! pivot! &nbsp;◆&nbsp; mischief managed</span>
       </div>
 
-      {showSoot && <span className="soot" aria-hidden="true" />}
+      {showSoot && (
+        <div className="soot-swarm" aria-hidden="true">
+          <span className="soot soot--r" />
+          <span className="soot soot--l" />
+          <span className="soot soot--r" />
+          <span className="soot soot--l" />
+          <span className="soot soot--r" />
+        </div>
+      )}
     </footer>
   );
 }

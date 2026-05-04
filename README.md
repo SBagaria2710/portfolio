@@ -65,9 +65,9 @@ yarn build
 ```
 
 Three-phase pipeline:
-1. `vite build` — client bundle → `dist/`
-2. `vite build --ssr` — server bundle → `dist-ssr/`
-3. `node scripts/prerender.mjs` — writes static HTML for each route
+1. `vite build` - client bundle → `dist/`
+2. `vite build --ssr` - server bundle → `dist-ssr/`
+3. `node scripts/prerender.mjs` - writes static HTML for each route
 
 Output in `dist/`:
 ```

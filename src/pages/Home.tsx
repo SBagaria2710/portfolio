@@ -29,7 +29,7 @@ export default function Home() {
       <div className="frame">
         <Footer
           heading="Say hello, or just say something."
-          intro={'I read every email. I reply to most. The fastest way to reach me is below — though if you spell "mellon" on this page, a door opens.'}
+          intro={'I read every email. I reply to most. The fastest way to reach me is below - though if you spell "mellon" on this page, a door opens.'}
           showSoot={true}
         />
       </div>

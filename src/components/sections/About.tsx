@@ -2,9 +2,11 @@ import type { ReactNode } from 'react';
 
 interface LinkProps { href: string; children: ReactNode; }
 
-function IMDbLink({ href, children }: LinkProps) {
+function Link({ href, children }: LinkProps) {
   return <a className="inline-ref" href={href} target="_blank" rel="noopener noreferrer">{children}</a>;
 }
+
+// https://www.goodreads.com/book/show/639864.Autobiography_of_a_Yogi
 
 export default function About() {
   return (
@@ -19,8 +21,8 @@ export default function About() {
         <div className="about">
           <p className="reveal">
             <span className="lead">F</span>ullstack engineer with 6+ years of experience crafting performant,
-            scalable web applications. I've shipped features to hundreds of millions of users — from live cricket
-            scoring during IPL to equipment management flows at Deel — and I care deeply about the craft behind each one.
+            scalable web applications. I've shipped features to hundreds of millions of users - from live cricket
+            scoring during IPL to equipment management flows at Deel - and I care deeply about the craft behind each one.
           </p>
 
           <div className="quote-card reveal">
@@ -28,13 +30,13 @@ export default function About() {
             <blockquote>
               Not all those who wander are lost. But some of them are debugging a race condition at 2 a.m.
             </blockquote>
-            <cite>— Tolkien, probably, if he were an engineer</cite>
+            <cite>- Tolkien, probably, if he were an engineer</cite>
             <span className="stamp-todo">TODO: replace</span>
           </div>
 
           <p className="b reveal">
             Known for delivering under tight deadlines, leading cross-functional efforts, and owning features
-            end-to-end. Outside work, you'll find me watching cricket, hosting{' '}
+            end-to-end. Outside work, you'll find me watching movies, hosting{' '}
             <a className="inline-ref" href="https://open.spotify.com/show/11XFJoppFmn2LGuSRYg5R1" target="_blank" rel="noopener noreferrer">
               The Positive Shift podcast
             </a>
@@ -57,29 +59,37 @@ export default function About() {
             <p className="currently__title">What I'm up to right now</p>
             <dl>
               <dt>Building</dt>
-              <dd><span className="arrow">→</span>This portfolio website</dd>
+              <dd>
+                <span className="arrow">→</span>
+                <Link href="https://thebrightpause.com/">The Bright Pause</Link>
+              </dd>
               <dt>Watching</dt>
               <dd>
                 <span className="arrow">→</span>
-                <IMDbLink href="https://www.imdb.com/title/tt6741278/">Invincible</IMDbLink>
+                <Link href="https://www.imdb.com/title/tt6741278/">Invincible</Link>
                 {' · '}
-                <IMDbLink href="https://www.imdb.com/title/tt1190634/">The Boys</IMDbLink>
+                <Link href="https://www.imdb.com/title/tt1190634/">The Boys</Link>
               </dd>
               <dt>Reading</dt>
-              <dd><span className="arrow">→</span>Autobiography of a Yogi</dd>
+              <dd>
+                <span className="arrow">→</span>
+                <Link href="https://www.goodreads.com/book/show/639864.Autobiography_of_a_Yogi">
+                  Autobiography of a Yogi
+                </Link>
+              </dd>
               <dt>Listening</dt>
               <dd>
                 <span className="arrow">→</span>
-                <a className="inline-ref inline-ref--gold" href="https://www.youtube.com/@PredictiveHistory" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.youtube.com/@PredictiveHistory">
                   Predictive History Sessions
-                </a>
+                </Link>
               </dd>
               <dt>Podcasting</dt>
               <dd>
                 <span className="arrow">→</span>
-                <a className="inline-ref inline-ref--gold" href="https://open.spotify.com/show/11XFJoppFmn2LGuSRYg5R1" target="_blank" rel="noopener noreferrer">
+                <Link href="https://open.spotify.com/show/11XFJoppFmn2LGuSRYg5R1">
                   The Positive Shift · new episode soon
-                </a>
+                </Link>
               </dd>
             </dl>
           </div>

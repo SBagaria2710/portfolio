@@ -11,7 +11,7 @@ export default function Recognition() {
         <div className="badges">
           <div className="badge reveal">
             <div className="crest">⚡</div>
-            <p className="name">Superhit Award — Made a Difference</p>
+            <p className="name">Superhit Award - Made a Difference</p>
             <p className="org">JioCinema · Viacom18</p>
             <p className="body">For actively contributing across different pods and extensively supporting during IPL, Olympics, Elections, and other high-scale events.</p>
             <span className="yr">2024</span>
@@ -19,7 +19,7 @@ export default function Recognition() {
 
           <div className="badge reveal">
             <div className="crest">◈</div>
-            <p className="name">Outstanding Performance — Most Valuable Developer</p>
+            <p className="name">Outstanding Performance - Most Valuable Developer</p>
             <p className="org">Cars24 · 2022–23</p>
             <p className="body">Recognised as the Most Valuable Developer in a team of 55 members for impact generated and efforts put into improving the overall quality of projects.</p>
             <span className="yr">2022</span>

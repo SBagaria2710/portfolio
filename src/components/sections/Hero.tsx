@@ -25,12 +25,12 @@ export default function Hero() {
 
           <h1 className="hero__name">
             Sha<span className="tip" data-tip="it's 'sh', not 's'. Yes, there are two sh(s)"><em>sh</em></span>wat
-            <span className="sub">— fullstack engineer · educator · person on the internet.</span>
+            <span className="sub">- fullstack engineer · educator · person on the internet.</span>
           </h1>
 
           <div className="hero__cursorline">
             <span className="prompt">~/portfolio $</span>
-            <span>6 years shipping high-scale systems in React, TypeScript & Node — 100M+ users served.<span className="pipe"> |</span><span className="cursor" aria-hidden="true" /></span>
+            <span>6 years shipping high-scale systems in React, TypeScript & Node - 100M+ users served.<span className="pipe"> |</span><span className="cursor" aria-hidden="true" /></span>
           </div>
 
           <dl className="hero__stats">

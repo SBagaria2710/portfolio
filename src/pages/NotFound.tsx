@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useTabTitle } from '../hooks/useTabTitle';
 
 export default function NotFound() {
-  useTabTitle('404 — Shashwat');
+  useTabTitle('404 - Shashwat');
 
   return (
     <div className="not-found-body">
@@ -11,7 +11,7 @@ export default function NotFound() {
         <h1>This page does not exist, much like a balanced binary tree in production.</h1>
         <p>
           Whatever you were looking for isn't here. It may have moved, been deleted, or
-          never existed in the first place — like most of my TODO comments.
+          never existed in the first place - like most of my TODO comments.
         </p>
         <p className="soft">
           If you followed a link from somewhere, it's probably my fault.

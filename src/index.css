@@ -271,7 +271,7 @@ a.card.card--alt:hover { transform: rotate(0.6deg) translate(-2px, -2px); }
 .badge .yr { position: absolute; bottom: 14px; right: 16px; font-family: var(--display); font-style: italic; font-size: 24px; opacity: 0.75; }
 
 /* ============================================================
-   WRITING — home post cards (compact)
+   WRITING - home post cards (compact)
    ============================================================ */
 .posts { list-style: none; padding: 0; margin: 0; display: grid; gap: 18px; }
 .post-card {
@@ -324,6 +324,51 @@ footer { margin-top: 88px; padding: 56px 0 100px; border-top: 4px double var(--i
   25%     { transform: translateY(-2px) rotate(-6deg); }
   50%     { transform: translateY(0) rotate(0deg); }
   75%     { transform: translateY(-1px) rotate(6deg); }
+}
+.soot-swarm {
+  position: absolute; left: 0; right: 0; bottom: 8px;
+  height: 14px; pointer-events: none;
+}
+.soot-swarm::before, .soot-swarm::after {
+  content: ''; position: absolute; bottom: -2px;
+  width: 20px; height: 14px; background: var(--ink);
+  border-radius: 20px 20px 0 0; opacity: 0.95; z-index: 2;
+}
+.soot-swarm::before { left: 6px; }
+.soot-swarm::after  { right: 6px; }
+.soot-swarm .soot {
+  right: auto; bottom: 0; z-index: 1;
+  pointer-events: auto;
+}
+.soot-swarm .soot::before, .soot-swarm .soot::after { opacity: 1; }
+.soot-swarm .soot--r {
+  left: 12px;
+  animation: scurry-r 18s linear infinite, bob-r 0.5s ease-in-out infinite;
+}
+.soot-swarm .soot--l {
+  right: 12px; left: auto;
+  animation: scurry-l 18s linear infinite, bob-l 0.5s ease-in-out infinite;
+}
+.soot-swarm .soot:nth-child(1) { animation-duration: 22s, 0.55s; animation-delay: 0s, 0s; }
+.soot-swarm .soot:nth-child(2) { animation-duration: 16s, 0.45s; animation-delay: -4s, -0.2s; }
+.soot-swarm .soot:nth-child(3) { animation-duration: 26s, 0.6s;  animation-delay: -10s, -0.1s; }
+.soot-swarm .soot:nth-child(4) { animation-duration: 18s, 0.5s;  animation-delay: -14s, -0.3s; }
+.soot-swarm .soot:nth-child(5) { animation-duration: 20s, 0.4s;  animation-delay: -7s, -0.15s; }
+@keyframes scurry-r {
+  from { left: 12px; }
+  to   { left: calc(100% - 20px); }
+}
+@keyframes scurry-l {
+  from { right: 12px; }
+  to   { right: calc(100% - 20px); }
+}
+@keyframes bob-r {
+  0%,100% { transform: translateY(0) rotate(-8deg); }
+  50%     { transform: translateY(-3px) rotate(8deg); }
+}
+@keyframes bob-l {
+  0%,100% { transform: translateY(0) rotate(8deg); }
+  50%     { transform: translateY(-3px) rotate(-8deg); }
 }
 
 /* ============================================================
@@ -500,7 +545,7 @@ footer { margin-top: 88px; padding: 56px 0 100px; border-top: 4px double var(--i
   .foot-links .dot { margin: 0 4px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .cursor, .ticker__rail, .marauder span, .vinyl, .train span { animation: none; }
+  .cursor, .ticker__rail, .marauder span, .vinyl, .train span, .soot-swarm .soot { animation: none; }
   .reveal { opacity: 1; transform: none; transition: none; }
   .soot:hover { animation: none; }
   html { scroll-behavior: auto; }
