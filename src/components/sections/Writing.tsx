@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { POSTS } from '../../data/posts';
 
 export default function Writing() {
@@ -14,7 +13,7 @@ export default function Writing() {
         <ul className="posts">
           {POSTS.map(post => (
             <li key={post.slug}>
-              <Link to={`/blog/${post.slug}`} className="post-card reveal">
+              <a href={`/blog/${post.slug}`} className="post-card reveal">
                 <div className="stamp">
                   <b>{post.date.split(' ')[0]}</b>
                   {post.date.split(' ')[1]}
@@ -24,13 +23,13 @@ export default function Writing() {
                   <p className="meta">{post.minutes} min read &nbsp;·&nbsp; {post.stamp}</p>
                 </div>
                 <span className="arrow" aria-hidden="true">→</span>
-              </Link>
+              </a>
             </li>
           ))}
         </ul>
 
         <p className="all-posts-link reveal">
-          <Link to="/blog">All posts →</Link>
+          <a href="/blog">All posts →</a>
         </p>
       </div>
     </section>

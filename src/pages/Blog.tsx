@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { useTabTitle } from '../hooks/useTabTitle';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 import Ticker from '../components/Ticker';
@@ -32,7 +31,7 @@ export default function Blog() {
       <div className="frame">
         <nav className="topbar reveal">
           <div className="crumbs">
-            <Link to="/">Home</Link>
+            <a href="/">Home</a>
             <span>›</span>
             <span>Writing</span>
           </div>
@@ -58,7 +57,7 @@ export default function Blog() {
         <ul className="posts-list">
           {POSTS.map(post => (
             <li key={post.slug}>
-              <Link to={`/blog/${post.slug}`} className="post-card-full reveal">
+              <a href={`/blog/${post.slug}`} className="post-card-full reveal">
                 <div className="stamp">
                   <b>{post.date.split(' ')[0]}</b>
                   {post.date.split(' ')[1]}
@@ -72,7 +71,7 @@ export default function Blog() {
                   </p>
                 </div>
                 <span className="arrow" aria-hidden="true">→</span>
-              </Link>
+              </a>
             </li>
           ))}
         </ul>

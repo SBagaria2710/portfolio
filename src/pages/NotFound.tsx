@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { useTabTitle } from '../hooks/useTabTitle';
 
 export default function NotFound() {
@@ -26,7 +25,7 @@ export default function NotFound() {
           </span>
         </div>
 
-        <Link to="/" className="back">← Back to the homepage</Link>
+        <a href="/" className="back">← Back to the homepage</a>
       </div>
     </div>
   );

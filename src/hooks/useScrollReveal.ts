@@ -1,9 +1,6 @@
 import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
 
 export function useScrollReveal(): void {
-  const { pathname } = useLocation();
-
   useEffect(() => {
     const targets = document.querySelectorAll<HTMLElement>('.reveal');
     const showAll = () => targets.forEach(el => el.classList.add('in'));
@@ -34,5 +31,5 @@ export function useScrollReveal(): void {
 
     const fallback = setTimeout(showAll, 1500);
     return () => { clearTimeout(fallback); io.disconnect(); };
-  }, [pathname]);
+  }, []);
 }

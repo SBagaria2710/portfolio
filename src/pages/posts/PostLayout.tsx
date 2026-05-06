@@ -1,5 +1,4 @@
 import type { ReactNode } from 'react';
-import { Link } from 'react-router-dom';
 import { useScrollReveal } from '../../hooks/useScrollReveal';
 import Ticker from '../../components/Ticker';
 import Footer from '../../components/Footer';
@@ -43,9 +42,9 @@ export default function PostLayout({ slug, children }: PostLayoutProps) {
       <div className="frame">
         <nav className="topbar">
           <div className="crumbs">
-            <Link to="/">Home</Link>
+            <a href="/">Home</a>
             <span>›</span>
-            <Link to="/blog">Writing</Link>
+            <a href="/blog">Writing</a>
             <span>›</span>
             <span>{post.title.length > 40 ? `${post.title.substring(0, 40)}…` : post.title}</span>
           </div>
@@ -71,10 +70,10 @@ export default function PostLayout({ slug, children }: PostLayoutProps) {
 
         <nav className="post-foot">
           {prev ? (
-            <Link to={`/blog/${prev.slug}`}>
+            <a href={`/blog/${prev.slug}`}>
               <span className="lab">← Previous</span>
               <span className="ttl">{prev.title}</span>
-            </Link>
+            </a>
           ) : (
             <span className="empty">
               <span className="lab">← Previous</span>
@@ -82,10 +81,10 @@ export default function PostLayout({ slug, children }: PostLayoutProps) {
             </span>
           )}
           {next ? (
-            <Link to={`/blog/${next.slug}`} className="next">
+            <a href={`/blog/${next.slug}`} className="next">
               <span className="lab">Next →</span>
               <span className="ttl">{next.title}</span>
-            </Link>
+            </a>
           ) : (
             <span className="empty next">
               <span className="lab">Next →</span>
@@ -94,7 +93,7 @@ export default function PostLayout({ slug, children }: PostLayoutProps) {
           )}
         </nav>
 
-        <p className="back-link"><Link to="/blog">← All writing</Link></p>
+        <p className="back-link"><a href="/blog">← All writing</a></p>
 
         <Footer
           heading="Found something here you'd like to argue with?"

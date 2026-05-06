@@ -10,6 +10,5 @@ export default defineConfig({
     resolve: {
       conditions: ['node', 'import', 'module', 'default'],
     },
-    noExternal: ['react-router', 'react-router-dom'],
   },
 });
