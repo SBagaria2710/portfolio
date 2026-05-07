@@ -25,13 +25,13 @@ export default function SideProjects() {
             <p className="stack"><span className="chip">JavaScript</span><span className="chip">Chrome APIs</span></p>
           </a>
 
-          <div className="card card--alt reveal">
+          <a className="card reveal" href="https://github.com/Slurppy-Inc/" target="_blank" rel="noopener noreferrer">
             <span className="card__tag">Self · 2020</span>
             <h3>Slurppy</h3>
             <p className="yr">NextJS · PWA · GraphQL · AWS</p>
             <p className="desc">Restaurant ordering app: browse the menu, place an order, track it - all from your seat. Built two apps (Slurppy Lens + Console) and onboarded 5 restaurants across Lucknow.</p>
             <p className="stack"><span className="chip">NextJS</span><span className="chip">TypeScript</span><span className="chip">GraphQL</span><span className="chip">AWS</span></p>
-          </div>
+          </a>
 
           <a className="card reveal" href="https://wall-eth.vercel.app/" target="_blank" rel="noopener noreferrer">
             <span className="card__tag">Web3 · Experiment</span>

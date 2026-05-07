@@ -10,6 +10,7 @@ import Teaching from '../components/sections/Teaching';
 // import Writing from '../components/sections/Writing';
 import Listen from '../components/sections/Listen';
 import Footer from '../components/Footer';
+import AvailabilityChip from '../components/AvailabilityChip';
 
 export default function Home() {
   useTabTitle('Shashwat: Engineer & Educator');
@@ -33,6 +34,7 @@ export default function Home() {
           showSoot={true}
         />
       </div>
+      <AvailabilityChip />
     </>
   );
 }
