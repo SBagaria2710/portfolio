@@ -1,0 +1,10 @@
+name = "portfolio-ga-proxy"
+main = "ga-proxy.js"
+compatibility_date = "2024-12-01"
+
+# Bind the Worker to the /ga/* path on your domain.
+# Cloudflare will route any request to portfolio.shashwatbagaria.com/ga/*
+# to this Worker instead of your origin.
+routes = [
+  { pattern = "portfolio.shashwatbagaria.com/ga/*", zone_name = "shashwatbagaria.com" }
+]
