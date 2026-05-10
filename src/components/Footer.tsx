@@ -22,8 +22,7 @@ export default function Footer({
             <a href="https://x.com/SBagaria2710" target="_blank" rel="noopener noreferrer">twitter/x</a><span className="dot">●</span>
             <a href="https://letterboxd.com/SBagaria2710/" target="_blank" rel="noopener noreferrer">Letterboxd</a><span className="dot">●</span>
             <a href="https://codepen.io/iShashwat" target="_blank" rel="noopener noreferrer">codepen</a><span className="dot">●</span>
-            <a href="https://drive.google.com/file/d/16FIIgO47FStMRIyDDHqm2mvyS33dBrHY/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a><span className="dot">●</span>
-            <a className="link" href="https://calendly.com/sbagaria2710/discovery-call-shashwat" target="_blank" rel="noopener noreferrer">book a call →</a>
+            <a href="https://drive.google.com/file/d/16FIIgO47FStMRIyDDHqm2mvyS33dBrHY/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a>
           </nav>
         </div>
         <div>

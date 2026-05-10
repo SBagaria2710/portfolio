@@ -232,6 +232,11 @@ p { margin: 0 0 1em; }
 .hero__stats dd { margin: 0; font-family: var(--display); font-size: 22px; line-height: 1.15; }
 .hero__stats dd small { display: block; font-family: var(--mono); font-size: 11px; color: var(--ink-2); letter-spacing: 0.06em; margin-top: 2px; }
 
+.hero__socials { display: flex; align-items: center; gap: 10px; margin-top: 20px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; color: var(--ink-2); }
+.hero__socials a { color: var(--ink-2); border-bottom: 1px dashed var(--ink-2); padding-bottom: 1px; transition: color 160ms, border-color 160ms; }
+.hero__socials a:hover { color: var(--rust); border-color: var(--rust); }
+.hero__socials__sep { color: var(--rule); }
+
 /* ============================================================
    SECTION SCAFFOLD
    ============================================================ */
