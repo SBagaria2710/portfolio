@@ -8,3 +8,12 @@ compatibility_date = "2024-12-01"
 routes = [
   { pattern = "portfolio.shashwatbagaria.com/ga/*", zone_name = "shashwatbagaria.com" }
 ]
+
+# Observability: persist request logs to the Workers dashboard for debugging.
+# Traces stay off — overkill for a single proxy worker.
+[observability.logs]
+enabled = true
+invocation_logs = true
+
+[observability.traces]
+enabled = false
