@@ -22,6 +22,7 @@ export default function Footer({
             <a href="https://x.com/SBagaria2710" target="_blank" rel="noopener noreferrer">twitter/x</a><span className="dot">●</span>
             <a href="https://letterboxd.com/SBagaria2710/" target="_blank" rel="noopener noreferrer">Letterboxd</a><span className="dot">●</span>
             <a href="https://codepen.io/iShashwat" target="_blank" rel="noopener noreferrer">codepen</a><span className="dot">●</span>
+            <a href="https://drive.google.com/file/d/16FIIgO47FStMRIyDDHqm2mvyS33dBrHY/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a><span className="dot">●</span>
             <a className="link" href="https://calendly.com/sbagaria2710/discovery-call-shashwat" target="_blank" rel="noopener noreferrer">book a call →</a>
           </nav>
         </div>
@@ -29,7 +30,7 @@ export default function Footer({
           <p className="foot-p" style={{ fontFamily: 'var(--display)', fontStyle: 'italic', fontSize: '22px', color: 'var(--ink)', lineHeight: 1.4 }}>
             &ldquo;An open road at sunset. Wind in your hair. Nothing in your way, except horizon.&rdquo;
           </p>
-          <p className="foot-credit">© 2026 · built by hand · no frameworks were harmed</p>
+          <p className="foot-credit">© 2026 · built by hand · one component at a time</p>
         </div>
       </div>
 

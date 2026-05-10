@@ -3,7 +3,7 @@ export default function Listen() {
     <section id="listen">
       <div className="frame">
         <div className="section-head reveal">
-          <span className="section-num">07</span>
+          <span className="section-num">06</span>
           <h2 className="section-title">Listen</h2>
           <p className="section-kicker">what&apos;s on while I code</p>
         </div>

@@ -6,7 +6,6 @@ function Link({ href, children }: LinkProps) {
   return <a className="inline-ref" href={href} target="_blank" rel="noopener noreferrer">{children}</a>;
 }
 
-// https://www.goodreads.com/book/show/639864.Autobiography_of_a_Yogi
 
 export default function About() {
   return (
@@ -28,10 +27,9 @@ export default function About() {
           <div className="quote-card reveal">
             <span className="qmark">"</span>
             <blockquote>
-              Not all those who wander are lost. But some of them are debugging a race condition at 2 a.m.
+              The best code I ever wrote was the code I deleted. The second best was the code I never had to explain.
             </blockquote>
-            <cite>- Tolkien, probably, if he were an engineer</cite>
-            <span className="stamp-todo">TODO: replace</span>
+            <cite>- me, at some point between two deploys</cite>
           </div>
 
           <p className="b reveal">
@@ -66,7 +64,7 @@ export default function About() {
               <dt>Watching</dt>
               <dd>
                 <span className="arrow">→</span>
-                <Link href="https://www.imdb.com/title/tt6741278/">Invincible</Link>
+                <Link href="https://www.imdb.com/title/tt12343534/episodes/?season=3">Jujutsu Kaisen</Link>
                 {' · '}
                 <Link href="https://www.imdb.com/title/tt1190634/">The Boys</Link>
               </dd>
