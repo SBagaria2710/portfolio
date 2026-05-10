@@ -9,7 +9,7 @@ export default function SideProjects() {
         </div>
 
         <div className="cards">
-          <a className="card reveal" href="https://thebrightpause.com/" target="_blank" rel="noopener noreferrer">
+          <a className="card reveal" href="https://thebrightpause.com/" target="_blank" rel="noopener noreferrer" data-cta="project_brightpause">
             <span className="card__tag">Publication · Ongoing</span>
             <h3>The Bright Pause ↗</h3>
             <p className="yr">2026</p>
@@ -17,7 +17,7 @@ export default function SideProjects() {
             <p className="stack"><span className="chip">Newsletter</span><span className="chip">Field Notes</span><span className="chip">Mindfulness</span></p>
           </a>
 
-          <a className="card reveal" href="https://www.producthunt.com/products/tab-securer?launch=tab-securer" target="_blank" rel="noopener noreferrer">
+          <a className="card reveal" href="https://www.producthunt.com/products/tab-securer?launch=tab-securer" target="_blank" rel="noopener noreferrer" data-cta="project_tabsecurer">
             <span className="card__tag">Chrome Extension</span>
             <h3>Tab Securer ↗</h3>
             <p className="yr">2020</p>
@@ -25,7 +25,7 @@ export default function SideProjects() {
             <p className="stack"><span className="chip">JavaScript</span><span className="chip">Chrome APIs</span></p>
           </a>
 
-          <a className="card reveal" href="https://github.com/Slurppy-Inc/" target="_blank" rel="noopener noreferrer">
+          <a className="card reveal" href="https://github.com/Slurppy-Inc/" target="_blank" rel="noopener noreferrer" data-cta="project_slurppy">
             <span className="card__tag">Self · 2020</span>
             <h3>Slurppy ↗</h3>
             <p className="yr">NextJS · PWA · GraphQL · AWS</p>
@@ -33,7 +33,7 @@ export default function SideProjects() {
             <p className="stack"><span className="chip">NextJS</span><span className="chip">TypeScript</span><span className="chip">GraphQL</span><span className="chip">AWS</span></p>
           </a>
 
-          <a className="card reveal" href="https://wall-eth.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <a className="card reveal" href="https://wall-eth.vercel.app/" target="_blank" rel="noopener noreferrer" data-cta="project_walleth">
             <span className="card__tag">Web3 · Experiment</span>
             <h3>Wall.eth ↗</h3>
             <p className="yr">2021</p>
@@ -41,7 +41,7 @@ export default function SideProjects() {
             <p className="stack"><span className="chip">Solidity</span><span className="chip">MetaMask API</span><span className="chip">React</span></p>
           </a>
 
-          <a className="card reveal" href="https://open.spotify.com/show/11XFJoppFmn2LGuSRYg5R1" target="_blank" rel="noopener noreferrer">
+          <a className="card reveal" href="https://open.spotify.com/show/11XFJoppFmn2LGuSRYg5R1" target="_blank" rel="noopener noreferrer" data-cta="project_positiveshift">
             <span className="card__tag">Podcast</span>
             <h3>The Positive Shift ↗</h3>
             <p className="yr">Ongoing</p>

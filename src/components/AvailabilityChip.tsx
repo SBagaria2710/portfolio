@@ -23,6 +23,7 @@ export default function AvailabilityChip() {
       rel="noopener noreferrer"
       aria-hidden={!visible}
       tabIndex={visible ? 0 : -1}
+      data-cta="floating_chip_calendly"
     >
       <span className="avail-chip__dot" aria-hidden="true" />
       <span>book a 15-min call →</span>

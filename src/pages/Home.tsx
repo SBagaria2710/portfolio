@@ -1,6 +1,8 @@
 import { useConsoleEgg } from '../hooks/useConsoleEgg';
 import { useTabTitle } from '../hooks/useTabTitle';
 import { useScrollReveal } from '../hooks/useScrollReveal';
+import { useSectionTracking } from '../hooks/useSectionTracking';
+import { useLinkTracking } from '../hooks/useLinkTracking';
 import Hero from '../components/sections/Hero';
 import About from '../components/sections/About';
 import Work from '../components/sections/Work';
@@ -16,6 +18,8 @@ export default function Home() {
   useTabTitle('Shashwat: Engineer & Educator');
   useConsoleEgg();
   useScrollReveal();
+  useSectionTracking();
+  useLinkTracking();
 
   return (
     <>

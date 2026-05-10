@@ -16,13 +16,13 @@ export default function Footer({
           <h2 className="foot-h">{heading}</h2>
           <p className="foot-p">{intro}</p>
           <nav className="foot-links" aria-label="Elsewhere">
-            <a href="mailto:shashwawtforwork@gmail.com">email</a><span className="dot">●</span>
-            <a href="https://github.com/SBagaria2710/" target="_blank" rel="noopener noreferrer">github</a><span className="dot">●</span>
-            <a href="https://www.linkedin.com/in/shashwat-bagaria/" target="_blank" rel="noopener noreferrer">linkedin</a><span className="dot">●</span>
-            <a href="https://x.com/SBagaria2710" target="_blank" rel="noopener noreferrer">twitter/x</a><span className="dot">●</span>
-            <a href="https://letterboxd.com/SBagaria2710/" target="_blank" rel="noopener noreferrer">Letterboxd</a><span className="dot">●</span>
-            <a href="https://codepen.io/iShashwat" target="_blank" rel="noopener noreferrer">codepen</a><span className="dot">●</span>
-            <a href="https://drive.google.com/file/d/16FIIgO47FStMRIyDDHqm2mvyS33dBrHY/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a>
+            <a href="mailto:shashwawtforwork@gmail.com" data-cta="footer_email">email</a><span className="dot">●</span>
+            <a href="https://github.com/SBagaria2710/" target="_blank" rel="noopener noreferrer" data-cta="footer_github">github</a><span className="dot">●</span>
+            <a href="https://www.linkedin.com/in/shashwat-bagaria/" target="_blank" rel="noopener noreferrer" data-cta="footer_linkedin">linkedin</a><span className="dot">●</span>
+            <a href="https://x.com/SBagaria2710" target="_blank" rel="noopener noreferrer" data-cta="footer_twitter">twitter/x</a><span className="dot">●</span>
+            <a href="https://letterboxd.com/SBagaria2710/" target="_blank" rel="noopener noreferrer" data-cta="footer_letterboxd">Letterboxd</a><span className="dot">●</span>
+            <a href="https://codepen.io/iShashwat" target="_blank" rel="noopener noreferrer" data-cta="footer_codepen">codepen</a><span className="dot">●</span>
+            <a href="https://drive.google.com/file/d/16FIIgO47FStMRIyDDHqm2mvyS33dBrHY/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-cta="footer_resume">resume</a>
           </nav>
         </div>
         <div>

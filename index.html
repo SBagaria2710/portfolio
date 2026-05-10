@@ -2,13 +2,22 @@
 <html lang="en">
 
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GRGQQQQJTV"></script>
+  <!-- Google tag (gtag.js) - proxied via Cloudflare Worker to bypass ad blockers.
+       Skipped on localhost so dev traffic doesn't hit a 404 (worker runs in prod only). -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-GRGQQQQJTV');
+    (function () {
+      var h = location.hostname;
+      if (h === 'localhost' || h === '127.0.0.1' || h.endsWith('.local')) return;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = '/ga/script?id=G-GRGQQQQJTV';
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      window.gtag = gtag;
+      gtag('js', new Date());
+      gtag('config', 'G-GRGQQQQJTV', { transport_url: location.origin + '/ga' });
+    })();
   </script>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/jpeg" href="/avatar.jpg" />
@@ -64,14 +73,14 @@
       },
       "sameAs": [
         "https://github.com/Sbagaria2710",
-        "https://www.linkedin.com/in/shashwat-bagaria"
+        "https://www.linkedin.com/in/shashwat-bagaria",
         "https://x.com/SBagaria2710"
       ],
       "description": "Senior Software Engineer at Deel with 6+ years building high-scale systems. Specialist in React, TypeScript, System Design, and Monorepo architecture. Previously at JioHotstar and Cars24. Remote-first engineer based in Lucknow, India.",
       "knowsAbout": [
         "React", "TypeScript", "JavaScript", "Node.js",
         "System Design", "Monorepo Architecture", "Web Performance",
-        "Core Web Vitals", "Live Streaming Infrastructure", "Product Thinking"
+        "Core Web Vitals", "Live Streaming Infrastructure", "Product Thinking",
         "Frontend Engineering", "Teaching", "AI", "Product Engineer", "Fullstack Engineering"
       ]
     }

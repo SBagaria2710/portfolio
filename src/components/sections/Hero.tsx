@@ -30,7 +30,7 @@ export default function Hero() {
 
           <div className="hero__cursorline">
             <span className="prompt">~/portfolio $</span>
-            <span>6 years shipping high-scale systems in React, TypeScript & Node - 100M+ users served.<span className="pipe"> |</span><span className="cursor" aria-hidden="true" /></span>
+            <span>6+ years shipping high-scale systems in React, TypeScript & Node - 100M+ users served.<span className="pipe"> |</span><span className="cursor" aria-hidden="true" /></span>
           </div>
 
           <a
@@ -38,6 +38,7 @@ export default function Hero() {
             href="https://calendly.com/sbagaria2710/discovery-call-shashwat"
             target="_blank"
             rel="noopener noreferrer"
+            data-cta="hero_calendly"
           >
             <span className="hero__avail__dot" aria-hidden="true" />
             <span className="hero__avail__label">Open to interesting conversations</span>
@@ -53,11 +54,11 @@ export default function Hero() {
           </dl>
 
           <nav className="hero__socials" aria-label="Social links">
-            <a href="https://www.linkedin.com/in/shashwat-bagaria/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/shashwat-bagaria/" target="_blank" rel="noopener noreferrer" data-cta="hero_linkedin">LinkedIn</a>
             <span className="hero__socials__sep" aria-hidden="true">·</span>
-            <a href="https://x.com/SBagaria2710" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+            <a href="https://x.com/SBagaria2710" target="_blank" rel="noopener noreferrer" data-cta="hero_twitter">X / Twitter</a>
             <span className="hero__socials__sep" aria-hidden="true">·</span>
-            <a href="https://drive.google.com/file/d/16FIIgO47FStMRIyDDHqm2mvyS33dBrHY/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume ↗</a>
+            <a href="https://drive.google.com/file/d/16FIIgO47FStMRIyDDHqm2mvyS33dBrHY/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-cta="hero_resume">Resume ↗</a>
           </nav>
         </div>
       </div>
