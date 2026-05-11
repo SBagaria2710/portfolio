@@ -3,22 +3,8 @@
 
 <head>
   <!-- Google tag (gtag.js) - proxied via Cloudflare Worker to bypass ad blockers.
-       Skipped on localhost so dev traffic doesn't hit a 404 (worker runs in prod only). -->
-  <script>
-    (function () {
-      var h = location.hostname;
-      if (h === 'localhost' || h === '127.0.0.1' || h.endsWith('.local')) return;
-      var s = document.createElement('script');
-      s.async = true;
-      s.src = '/ga/script?id=G-GRGQQQQJTV';
-      document.head.appendChild(s);
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      window.gtag = gtag;
-      gtag('js', new Date());
-      gtag('config', 'G-GRGQQQQJTV', { transport_url: location.origin + '/ga' });
-    })();
-  </script>
+       Skipped on localhost (see ga-bootstrap.js). External file avoids CSP inline-script issues. -->
+  <script src="/ga-bootstrap.js"></script>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/jpeg" href="/avatar.jpg" />
   <link rel="apple-touch-icon" href="/avatar.jpg" />
