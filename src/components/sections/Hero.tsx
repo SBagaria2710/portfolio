@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <>
       <Ticker speed={50}>
-        <span>product engineer</span><span className="glyph">✦</span>
+        <span>senior product engineer</span><span className="glyph">✦</span>
         <span>react · node · typescript</span><span className="glyph">✦</span>
         <span>educator</span><span className="glyph">✦</span>
         <span>product thinker</span><span className="glyph">✦</span>
@@ -25,7 +25,7 @@ export default function Hero() {
 
           <h1 className="hero__name">
             Sha<span className="tip" data-tip="it's 'sh', not 's'. Yes, there are two sh(s)"><em>sh</em></span>wat
-            <span className="sub">- product engineer · educator · person on the internet.</span>
+            <span className="sub">- senior product engineer · educator · person on the internet.</span>
           </h1>
 
           <div className="hero__cursorline">

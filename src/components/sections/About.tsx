@@ -19,9 +19,9 @@ export default function About() {
 
         <div className="about">
           <p className="reveal">
-            <span className="lead">F</span>ullstack engineer with 6+ years of experience crafting performant,
-            scalable web applications. I've shipped features to hundreds of millions of users - from live cricket
-            scoring during IPL to equipment management flows at Deel - and I care deeply about the craft behind each one.
+            <span className="lead">S</span>enior Product Engineer with 6+ years of experience at the intersection
+            of engineering and product thinking. I've shipped features to hundreds of millions of users - from live
+            cricket scoring during IPL to equipment management flows at Deel - and I care as much about the why as the how.
           </p>
 
           <div className="quote-card reveal">
@@ -64,22 +64,20 @@ export default function About() {
               <dt>Watching</dt>
               <dd>
                 <span className="arrow">→</span>
-                <Link href="https://www.imdb.com/title/tt12343534/episodes/?season=3">Jujutsu Kaisen</Link>
-                {' · '}
-                <Link href="https://www.imdb.com/title/tt1190634/">The Boys</Link>
+                <Link href="https://www.imdb.com/title/tt36732944/">We are all trying here</Link>
               </dd>
               <dt>Reading</dt>
               <dd>
                 <span className="arrow">→</span>
-                <Link href="https://www.goodreads.com/book/show/639864.Autobiography_of_a_Yogi">
-                  Autobiography of a Yogi
+                <Link href="https://www.amazon.in/dp/0007547994">
+                  Algorithms to Live By
                 </Link>
               </dd>
               <dt>Listening</dt>
               <dd>
                 <span className="arrow">→</span>
-                <Link href="https://www.youtube.com/@PredictiveHistory">
-                  Predictive History Sessions
+                <Link href="https://music.youtube.com/playlist?list=PLpKgtQCcjq7a5W-SoD1qsuxO_yDsvx0nd">
+                  Chatpate Gaane
                 </Link>
               </dd>
               <dt>Podcasting</dt>
