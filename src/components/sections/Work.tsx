@@ -27,10 +27,10 @@ export default function Work() {
         <ul className="roles">
 
           <li className="role reveal">
-            <div className="role__sigil">D<small>SPE</small></div>
+            <div className="role__sigil">D<small>PE</small></div>
             <div className="role__head">
               <h3 className="role__company"><ExternalLink href="https://www.deel.com">Deel</ExternalLink></h3>
-              <p className="role__title">Senior Product Engineer</p>
+              <p className="role__title">Product Engineer</p>
             </div>
             <div className="role__years"><b>Sep 2025 - Present</b>Remote</div>
             <p className="role__summary">
