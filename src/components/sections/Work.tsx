@@ -35,12 +35,14 @@ export default function Work() {
             <div className="role__years"><b>Sep 2025 - Present</b>Remote</div>
             <p className="role__summary">
               Building the future of global HR infrastructure - starting with making equipment management
-              not a nightmare for 1000+ organisations worldwide.
+              not a nightmare for 20,000+ organisations worldwide.
             </p>
             <ul className="role__bullets">
-              <li>Sunset the legacy equipment flow and helped migrate <b>1000+ organisations</b> to the new DeelIT flow.</li>
-              <li>Built the <b>Mobile Device Management</b> Self-Serve flow and integrated DeelIT into the Offboarding Flow.</li>
+              <li>Authored a <b>cross-stack analytics fix</b>, tracing from production logs to root cause and designing the architectural solution.</li>
               <li>Built a <b>centralised analytics package</b> for all DeelIT events across the platform.</li>
+              <li>Delivered the <b>V2 Manage Equipment offboarding flow</b> end-to-end on the frontend.</li>
+              <li>Built the <b>Mobile Device Management</b> Self-Serve flow and integrated DeelIT into the Offboarding Flow.</li>
+              <li>Sunset the legacy equipment flow and migrated <b>1000+ organisations</b> to the new DeelIT flow.</li>
             </ul>
             <div className="role__stack">
               <span className="k">Stack</span>
